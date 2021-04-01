@@ -4,6 +4,7 @@
 * 'cd' to the directory where requirements.txt is located.
 * You can activate your virtualenv (not obligatory).
 * Run: `pip install -r requirements.txt` in your shell (in this way You will install all needed packages).
+* If You are in place where project is located run: `python manage.py makemigartions` and next `python manage.py migrate`
 * If You are in place where project is located run: `python manage.py runserver`
 * In case of testing I preffer using Postman. https://www.postman.com/
 * You must create a new Request and choose HTTP request method and type reuest Url (Url addres you can check in command prompt after running server, on my computer it is: http://127.0.0.1:8000/
