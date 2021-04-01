@@ -1,5 +1,5 @@
 from django.db import models
-
+from django.utils.translation import gettext_lazy as _
 # Create your models here.
 
 class Word(models.Model):
@@ -9,8 +9,8 @@ class Word(models.Model):
 
     class Meta:
         ordering = ('name',)
-        verbose_name = "Word"
-        verbose_name_plural = "Words"
+        verbose_name = _("Word")
+        verbose_name_plural = _("Words")
 
     def __str__(self):
         return self.name
